@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chat-box {
+	/* background: #e0e0e0; */
+	box-shadow: 7px 7px 14px #acacac, -7px -7px 14px #ffffff;
+}
+::-webkit-scrollbar {
+	width: 5px;
+}
+::-webkit-scrollbar-track {
+	width: 5px;
+	background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+	width: 3px;
+	background-color:#acacac;
+	border-radius: 5px;
+}
