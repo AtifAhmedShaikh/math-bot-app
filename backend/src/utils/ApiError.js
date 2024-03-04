@@ -8,7 +8,7 @@ class ApiError extends Error {
    * @param {number} statusCode - The HTTP status code.
    * @param {string} message - The error message.
    */
-  constructor (statusCode, message) {
+  constructor(statusCode, message) {
     super(message);
     this.statusCode = statusCode;
     this.message = message;
