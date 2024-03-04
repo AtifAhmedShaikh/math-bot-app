@@ -9,7 +9,7 @@ const apiInstance = axios.create({
 
 const responseInterceptor = (response) => {
 	const message = response?.data?.message;
-	return { ...response, message, success: true, data: response?.data };
+	return { ...response, message, success: true, data: response?.data.data };
 };
 
 const errorInterceptor = (error) => {
