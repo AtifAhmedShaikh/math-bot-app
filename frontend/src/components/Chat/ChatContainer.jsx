@@ -10,7 +10,7 @@ const ChatContainer = ({ chatConversation }) => {
 			{chatConversation.map((message) => {
 				return (
 					<div key={message._id} className="my-2">
-						<BotReply message={message.evaluatedResult} />
+						<BotReply message={message.evaluatedResult} time={message.createdAt} />
 						<div className="clear-both"></div>
 						<UserMessage message={message.arithmeticExpression} />
 						<div className="clear-both"></div>
