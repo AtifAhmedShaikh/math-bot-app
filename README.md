@@ -28,7 +28,7 @@ Math Bot App is a full-stack web application developed using the MERN (MongoDB, 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/AtifAhmedShaikh/math-bot-app.git
    cd backend
    npm i 
    npm run dev
